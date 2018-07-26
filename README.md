@@ -1,5 +1,5 @@
 # Weather-app
-Web scraping weather app
+React weather app using an express server that runs 'pupeteer' for web scraping of weather info.
 
 ## Requirements
 Node.js installed is required on your environement.
@@ -10,5 +10,5 @@ To install run:
   2. npm run build
 
 ## Run
-  1. run the crawling server using the command 'node './src/server.js'
-  2. run the index file in './public/index.html'
+  1. Run the crawling server using the command 'node './src/server.js'
+  2. Run the index file in './public/index.html'
