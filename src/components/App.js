@@ -19,24 +19,10 @@ export default class App extends React.Component {
             let res = await fetch(url, {method: 'GET'});
             let data = await res.json();
             return data;
-        } catch(err){
+        } catch(err) {
             console.log(err);
             throw err;
         }
-        // await fetch(url, {method: 'GET'})
-        // .then(function(response) {
-        //   if (!response.ok){
-        //       throw response;
-        //   }
-        //   return response.json();            
-        // }).then(function(myJson) {
-        //   console.log(myJson);
-        //   //handleData(myJson);
-        //   //this.handleData(myJson);
-        //   return myJson;
-        // })
-        // .catch(err => { console.log(err);
-        //                 /*throw err;*/ });
     }
 
     handleSearch(e){
