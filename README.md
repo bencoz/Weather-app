@@ -1,6 +1,6 @@
 # Weather-app
 React weather app using:
-  1. Express server that runs 'pupeteer' for web scraping of weather info
+  1. [Express](https://github.com/GoogleChrome/puppeteer) server that runs [Pupeteer](https://expressjs.com/) for web scraping of weather info
   2. React client side
 
 ## Requirements
